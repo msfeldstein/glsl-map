@@ -1,0 +1,38 @@
+{
+  "name": "glsl-map",
+  "version": "1.0.0",
+  "description": "Map a value from one range to another. Equivalent to Processing's map() function.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "glslify test.glsl | glsl-testify | tap-spec"
+  },
+  "author": {
+    "name": "Mike and Johan",
+    "email": "msfeldstein@gmail.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "glsl-testify": "^1.0.0",
+    "glslify": "^1.6.0",
+    "tap-spec": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/msfeldstein/glsl-map.git"
+  },
+  "keywords": [
+    "min",
+    "max",
+    "map",
+    "mix",
+    "glsl",
+    "glslify",
+    "shader",
+    "interpolation"
+  ],
+  "homepage": "https://github.com/msfeldstein/glsl-map",
+  "bugs": {
+    "url": "https://github.com/hughsk/glsl-map/issues"
+  }
+}
