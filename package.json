@@ -1,6 +1,6 @@
 {
   "name": "glsl-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map a value from one range to another. Equivalent to Processing's map() function.",
   "main": "index.js",
   "license": "MIT",
@@ -33,6 +33,6 @@
   ],
   "homepage": "https://github.com/msfeldstein/glsl-map",
   "bugs": {
-    "url": "https://github.com/hughsk/glsl-map/issues"
+    "url": "https://github.com/msfeldstein/glsl-map/issues"
   }
 }
